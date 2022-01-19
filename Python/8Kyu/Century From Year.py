@@ -1,5 +1,5 @@
-import test
-
+import imp
+test = imp.load_source('test', './test.py')
 
 def century(year):
     return (year - 1)//100 + 1

@@ -1,5 +1,5 @@
-import test
-
+import imp
+test = imp.load_source('test', './test.py')
 
 def remove_char(s):
     return s[1:-1]

@@ -1,5 +1,5 @@
-import test
-
+import imp
+test = imp.load_source('test', './test.py')
 
 def count_positives_sum_negatives(arr):
     if(len(arr) == 0):
