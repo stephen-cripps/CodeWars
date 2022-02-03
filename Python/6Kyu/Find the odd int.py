@@ -1,4 +1,3 @@
-from enum import unique
 import imp
 test = imp.load_source('test', './test.py')
 
